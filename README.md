@@ -14,7 +14,7 @@ Build the necessary components used by the application using docker-compose.yaml
  ##### &nbsp;python3 vote.py addparty PartyName [--url http://rest-api:8008]
  #### 2. <b>Cast votes</b>
  Voters can cast vote exactly once and for exactly one party; voters are identified by their names.
- ##### &nbsp;python3 votefor VoterName PartyName
+ ##### &nbsp;python3 vote.py votefor VoterName PartyName
  #### 3. <b>List parties and voters</b>
  List all added parties and voters who have voted.
  ##### &nbsp;python3 vote.py listparties
