@@ -75,6 +75,8 @@ RUN \
     software-properties-common \
     python3-sawtooth-sdk \
     python3-sawtooth-cli \
+    curl \
+    vim \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
